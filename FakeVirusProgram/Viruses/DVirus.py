@@ -120,7 +120,10 @@ class DVirus(Virus):
             
         if(x==virusFilePosition and line==virusLinePosition):
             file.write(leftASCII); #Write left padding garbage
-            file.write("I am the virus!"); #Write the actual virus message
+            asi="";
+            for char in "I am the virus!":
+                asi+=str(ord(char)+" ");
+            file.write(asi); #Write the actual virus message
             file.write(rightASCII); #Write right padding garbage
         else:
             file.write(leftASCII); #Write left padding garbage
