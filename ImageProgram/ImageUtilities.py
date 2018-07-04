@@ -152,7 +152,6 @@ def setPixelAlphasFromIntsRandom(image,ints):
 
     length=len(ints);
     rand=int(len(pixelData)/length);
-    print("Random spacing: "+str(rand));
     
     position=0;
     
@@ -167,7 +166,6 @@ def setPixelAlphasFromIntsRandom(image,ints):
         g=0;
         b=0;
         a=0;
-        print(randomPosition[x]);
         try:
             r,g,b,a=pixelData[randomPosition[x]];
         except:
