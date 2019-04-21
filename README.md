@@ -1,4 +1,4 @@
-# 8BitCrypto
+# Python Summer Camp Cryptography
 A cryptography resource written in Python that was created to facilitate the learning for iD tech summer camps. The included resources for the week long camp include.
 
 1. An example on how to write simple Python classes. [Link](https://github.com/janavarro95/8BitCrypto/tree/master/Class%20Example)
